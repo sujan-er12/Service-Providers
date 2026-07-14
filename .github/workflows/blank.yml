@@ -23,9 +23,10 @@ jobs:
 
       - name: Build debug APK
         run: gradle assembleDebug --no-daemon
+        working-directory: ServiceProviders-AndroidApp/AndroidApp
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: ServiceProviders-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: ServiceProviders-AndroidApp/AndroidApp/app/build/outputs/apk/debug/app-debug.apk
