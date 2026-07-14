@@ -1,0 +1,6 @@
+<resources>
+    <color name="black">#050505</color>
+    <color name="white">#FFFFFF</color>
+    <color name="accent_pink">#FF0080</color>
+    <color name="accent_cyan">#00FFFF</color>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Service Providers</string>
+
+    <!-- ============================================================
+         THE ONLY LINE YOU NEED TO CHANGE IS THIS ONE.
+         Point it at your hosted site.
+         ============================================================ -->
+    <string name="base_url">https://service-providers.infinityfreeapp.com/index.php</string>
+
+    <string name="no_internet_title">No internet connection</string>
+    <string name="no_internet_message">Please check your connection and try again.</string>
+    <string name="retry">Retry</string>
+</resources>
